@@ -4,17 +4,17 @@ const port = 80
 const connect = require('./connection/connect')
 const songs = require('./Model/song')
 app.get("/" , async(req,res)=>{
-    await connect()
-    // res.status(200).json( await songs.findOne({Name:"295"}))
-    res.send('hi')
+   
+    res.status(200).json( await songs.find({}))
+  
 })
 app.use(express.static('./aulbum.json'))
 app.listen(port, async()=>{
     try {
-        
+        await connect() 
         console.log("Server are started");
     } catch (error) {
-        console.log("Internal Server error");
+        console.log("Internal error");
     }
 })
 

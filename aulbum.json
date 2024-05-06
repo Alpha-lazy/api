@@ -9,28 +9,4 @@
         "Name":"Aigiri Nandini.mp3",
         "uri":"http://localhost/path/Aigiri%20Nandini.mp3",
         "Artist":"Siddhu musewala"
-    },
-
-    {
-        "Name":"BABAM BAM(SLOWED REVERB)",
-        "uri":"http://localhost/path/BABAM%20BAM%20(SLOWED%20%2B%20REVERB).mp3",
-        "Artist":"Unknown"
-    },
-
-    {
-        "Name":"Brown Munde",
-        "uri":"http://localhost/path/Ramaiya%20Vastavaiya%20Mashup%20by%20DJ%20Chetas%20(Mashup).mp3",
-        "Artist":"Siddhu musewala"
-    },
-
-    {
-        "Name":"Desi Kalakaar",
-        "uri":"http://localhost/path/Desi%20Kalakaar.mp3",
-        "Artist":"Yo Yo Honey Singh"
-    },
-    {
-        "Name":"desi Kalakaar",
-        "uri":"http://localhost/path/Desi%20Kalakaar.mp3",
-        "Artist":"Yo Yo Honey Singh"
-    }
-]
+    }]
