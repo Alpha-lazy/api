@@ -5,9 +5,10 @@ const connect = require('./connection/connect')
 const songs = require('./Model/song')
 app.get("/" , async(req,res)=>{
     await connect()
-    res.status(200).json( await songs.findOne({Name:"295"}))
+    // res.status(200).json( await songs.findOne({Name:"295"}))
+    res.send('hi')
 })
-
+app.use(express.static('./aulbum.json'))
 app.listen(port, async()=>{
     try {
         
